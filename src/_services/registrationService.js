@@ -8,3 +8,11 @@ export const corporateRegistration = (formData, setFormData, channelDeals, setCh
     console.table(payload);
     // console.table(channelDeals);
 };
+
+export const staffRegistration = (formData, setFormData) => {
+    const payload = {
+        ...formData,
+    }
+    console.table(payload);
+    // console.table(channelDeals);
+};

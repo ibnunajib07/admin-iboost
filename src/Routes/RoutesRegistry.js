@@ -9,7 +9,7 @@ import {
     FundOutlined,
     TeamOutlined,
     UserOutlined,
-    GithubOutlined,
+    UserAddOutlined,
 } from "@ant-design/icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandHoldingDollar, faFileInvoice, faBuilding, faTableList } from "@fortawesome/free-solid-svg-icons";
@@ -162,11 +162,11 @@ export const protectedRouteList = [
     },
     {
         key: "newpage",
-        label: <Link to="/newpage" >New Page</Link>,
-        path: "/newpage",
+        label: <Link to="/staff_registration" >Staff Registration</Link>,
+        path: "/staff_registration",
         isIndex: true,
         element: <NewPage />,
-        icon: <GithubOutlined />,
+        icon: <UserAddOutlined />,
         children: [],
     },
 ];
